@@ -158,7 +158,6 @@ reviews:
         track_performance; util_service_factory_pattern: true; avoid_db_access:
         true; mock_strategy: static_mocks; context_restart_minimize: true
     - path: src/main/webapp/**/*.html
-      instructions: >-
         @if and @for are new and valid Angular syntax replacing *ngIf and
         *ngFor. They should always be used over the old style.
     - path: src/main/webapp/i18n/de/**/*.json
